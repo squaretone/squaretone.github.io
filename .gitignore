@@ -1,1 +1,4 @@
 _site/
+*.sublime-workspace
+*.lock
+.DS_Store
