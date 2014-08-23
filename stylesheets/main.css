@@ -1,0 +1,7 @@
+.icon-only a{
+	width: 1.6em;
+	font-size: 2em;
+	white-space: nowrap;
+	overflow: hidden;
+	display: inline-block;
+}
