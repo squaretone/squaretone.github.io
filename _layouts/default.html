@@ -14,7 +14,7 @@
     <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
+    <link href='http://fonts.googleapis.com/css?family=McLaren' rel='stylesheet' type='text/css'>	
     <!-- Custom styles for this template -->
     <link href="/stylesheets/sticky-footer-navbar.css" rel="stylesheet">
     <link href="/stylesheets/main.css" rel="stylesheet">
@@ -44,7 +44,7 @@
           <ul class="nav navbar-nav pull-right">
             <li class="icon-only"><a href="https://github.com/squaretone/"><i class="fa fa-github"></i> Github</a></li>
             <li class="icon-only"><a href="http://twitter.com/ericthelawrence"><i class="fa fa-twitter"></i> Twitter</a></li>
-            <li class="icon-only"><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
+            <li class="icon-only"><a href="#contact"><i class="fa fa-envelope-o"></i> Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -52,11 +52,24 @@
 
     <!-- Begin page content -->
     <div class="container">
-      <div class="page-header">
-        <h1>{{page.title}}</h1>
+
+
+      <div class="page-header row">
+        <h1 class="col-md-12">{{page.title}}</h1>
+        <small class="col-md-12 tagline">&nbsp;&nbsp;Designer/developer living  &amp;  coding in Omaha</small>
       </div>
 
-      {{ content }}
+		  <div class="row">
+				<div class="col-md-5">
+		      {{ content }}
+				</div>
+				<div class="col-md-7">
+
+					<span>.</span>
+
+				</div>
+		  </div>
+
 
     </div>
 
